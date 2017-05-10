@@ -1,0 +1,29 @@
+This file contains definitions of frequently used terms in SockerTopp.
+
+1. ANGLES
+	Definitions of angles.
+	
+	1.1 Misc.
+		All angles are increasing clock-wise
+	
+	1.2 HeadAngle
+		The angle of the head relative the body of an object (e.g. body to north and face to east gives a HeadAngle of 90)	
+	
+	1.3 BodyDirection
+		The direction of the body of an object relative to the direction of the own body (hence always 0 on oneself)
+	
+	1.4	FaceDirection
+		The direction of the face of an object relative to the direction of the own face (hence always 0 on oneself
+	
+	1.4 AbsoluteBodyDirection
+		The direction of the body of an object relative the opponent goal [NORTH=-90][EAST=0][SOUTH=90][WEST=180|-180]
+	
+	1.6 AbsoluteFaceDirection
+		The direction of the face of an object relative the opponent goal [NORTH=-90][EAST=0][SOUTH=90][WEST=180|-180]
+	
+	1.7 Direction
+		Direction to an object relative own facing direction 
+
+
+2. COORDINATE SYSTEM
+	Origo is placed in the middle of the field, X and Y is increasing down-right, decreasing up-left

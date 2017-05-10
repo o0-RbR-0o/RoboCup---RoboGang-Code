@@ -1,0 +1,8 @@
+C:\Users\RbR\Documents\RoboCupRepo\Client\Crapi\bin\Release\RoboGang.exe.config
+C:\Users\RbR\Documents\RoboCupRepo\Client\Crapi\bin\Release\RoboGang.exe
+C:\Users\RbR\Documents\RoboCupRepo\Client\Crapi\bin\Release\RoboGang.pdb
+C:\Users\RbR\Documents\RoboCupRepo\Client\Crapi\obj\Release\Crapi.csprojResolveAssemblyReference.cache
+C:\Users\RbR\Documents\RoboCupRepo\Client\Crapi\obj\Release\RoboGang.Properties.Resources.resources
+C:\Users\RbR\Documents\RoboCupRepo\Client\Crapi\obj\Release\Crapi.csproj.GenerateResource.Cache
+C:\Users\RbR\Documents\RoboCupRepo\Client\Crapi\obj\Release\RoboGang.exe
+C:\Users\RbR\Documents\RoboCupRepo\Client\Crapi\obj\Release\RoboGang.pdb

@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1FD31B75-E09A-43D0-92BC-CD136901B970}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RoboGang</RootNamespace>
+    <AssemblyName>RoboGang</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Crapi\BasicActions.cs" />
+    <Compile Include="Crapi\BasicCommands.cs" />
+    <Compile Include="Crapi\Clock.cs" />
+    <Compile Include="Crapi\CommandQueue.cs" />
+    <Compile Include="Crapi\Commands\Catch.cs" />
+    <Compile Include="Crapi\Commands\ChangeView.cs" />
+    <Compile Include="Crapi\Commands\Command.cs" />
+    <Compile Include="Crapi\Commands\Dash.cs" />
+    <Compile Include="Crapi\Commands\Enums.cs" />
+    <Compile Include="Crapi\Commands\Kick.cs" />
+    <Compile Include="Crapi\Commands\Move.cs" />
+    <Compile Include="Crapi\Commands\Say.cs" />
+    <Compile Include="Crapi\Commands\Turn.cs" />
+    <Compile Include="Crapi\Commands\TurnNeck.cs" />
+    <Compile Include="Crapi\Delegates.cs" />
+    <Compile Include="Crapi\Enums.cs" />
+    <Compile Include="Crapi\EventArgs.cs" />
+    <Compile Include="Crapi\Info\HearInfo.cs" />
+    <Compile Include="Crapi\Info\InfoBase.cs" />
+    <Compile Include="Crapi\Info\PlayerParam.cs" />
+    <Compile Include="Crapi\Info\PlayerType.cs" />
+    <Compile Include="Crapi\Info\SenseBody.cs" />
+    <Compile Include="Crapi\Info\ServerParam.cs" />
+    <Compile Include="Crapi\Net\ServerConnection.cs" />
+    <Compile Include="Crapi\Player.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Crapi\Utility\CellCoordinate.cs" />
+    <Compile Include="Crapi\Utility\Line2D.cs" />
+    <Compile Include="Crapi\Utility\MathUtility.cs" />
+    <Compile Include="Crapi\Utility\Matrix.cs" />
+    <Compile Include="Crapi\Utility\Point2D.cs" />
+    <Compile Include="Crapi\Utility\Rectangle2D.cs" />
+    <Compile Include="Crapi\Utility\Tokenizer.cs" />
+    <Compile Include="Crapi\World\Delegates.cs" />
+    <Compile Include="Crapi\World\EventArgs.cs" />
+    <Compile Include="Crapi\World\Flag.cs" />
+    <Compile Include="Crapi\World\Fuzzy\Positioning.cs" />
+    <Compile Include="Crapi\World\Fuzzy\PositioningMatrix.cs" />
+    <Compile Include="Crapi\World\GameObjects\Ball.cs" />
+    <Compile Include="Crapi\World\GameObjects\FieldObject.cs" />
+    <Compile Include="Crapi\World\GameObjects\FieldPlayer.cs" />
+    <Compile Include="Crapi\World\GameObjects\GameObject.cs" />
+    <Compile Include="Crapi\World\GameObjects\MobileObject.cs" />
+    <Compile Include="Crapi\World\GameObjects\VagueObject.cs" />
+    <Compile Include="Crapi\World\Intersection.cs" />
+    <Compile Include="Crapi\World\PlayerRepository.cs" />
+    <Compile Include="Crapi\World\Positioning\PositionElement.cs" />
+    <Compile Include="Crapi\World\Positioning\Positioner.cs" />
+    <Compile Include="Crapi\World\RepositoryElement.cs" />
+    <Compile Include="Crapi\World\WorldModel.cs" />
+    <Compile Include="RoboGang\BasicComponents\Constants.cs" />
+    <Compile Include="RoboGang\BasicComponents\PlayerContext.cs" />
+    <Compile Include="RoboGang\BasicComponents\PlayerHandler.cs" />
+    <Compile Include="RoboGang\BasicComponents\Personalities\ImprovedKeeper.cs" />
+    <Compile Include="RoboGang\BasicComponents\Personalities\LazyKeeper.cs" />
+    <Compile Include="RoboGang\BasicComponents\Personalities\Personality.cs" />
+    <Compile Include="RoboGang\BasicComponents\Personalities\Renegade.cs" />
+    <Compile Include="RoboGang\Team\Team.cs" />
+    <Compile Include="RoboGang\Team\TeamPropertyLoader.cs" />
+    <Compile Include="RoboGang\Visualization\FieldVisualizer.Designer.cs" />
+    <Compile Include="RoboGang\Visualization\FieldVisualizer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RoboGang\BasicComponents\Personalities\Offensive.cs" />
+    <Compile Include="RoboGang\BasicComponents\Personalities\Defensive.cs" />
+    <Compile Include="Bootstrap.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="Crapi\LICENSE" />
+    <None Include="RoboGang\Visualization\FieldVisualizer.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Crapi\Definitions.txt" />
+    <None Include="Resources\kvO3azi.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

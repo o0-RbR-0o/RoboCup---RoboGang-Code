@@ -1,0 +1,16 @@
+﻿<Properties StartupItem="Crapi/Crapi.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Crapi/RoboGang/BasicComponents/Personalities/LazyKeeper.cs">
+    <Files>
+      <File FileName="Crapi/RoboGang/BasicComponents/Personalities/RenegadeNew.cs" Line="336" Column="8" />
+      <File FileName="Crapi/RoboGang/BasicComponents/Personalities/Personality.cs" Line="1" Column="1" />
+      <File FileName="Crapi/RoboGang/BasicComponents/Personalities/RenegadeOld.cs" Line="155" Column="1" />
+      <File FileName="Crapi/RoboGang/BasicComponents/Personalities/LazyKeeper.cs" Line="64" Column="37" />
+      <File FileName="Crapi/Crapi/World/WorldModel.cs" Line="836" Column="3" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

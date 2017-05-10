@@ -1,0 +1,31 @@
+c:\users\el\documents\visual studio 2013\Projects\Crapi\Crapi\bin\Debug\Crapi.exe.config
+c:\users\el\documents\visual studio 2013\Projects\Crapi\Crapi\obj\Debug\Crapi.csprojResolveAssemblyReference.cache
+c:\users\el\documents\visual studio 2013\Projects\Crapi\Crapi\bin\Debug\Crapi.exe
+c:\users\el\documents\visual studio 2013\Projects\Crapi\Crapi\bin\Debug\Crapi.pdb
+c:\users\el\documents\visual studio 2013\Projects\Crapi\Crapi\obj\Debug\Crapi.exe
+c:\users\el\documents\visual studio 2013\Projects\Crapi\Crapi\obj\Debug\Crapi.pdb
+C:\Users\El\Documents\Visual Studio 2013\Projects\Cra_pi\robocup-simulation-1\robocup-simulation-1\Client\Crapi\Crapi\bin\Debug\Crapi.exe.config
+C:\Users\El\Documents\Visual Studio 2013\Projects\Cra_pi\robocup-simulation-1\robocup-simulation-1\Client\Crapi\Crapi\obj\Debug\Crapi.exe
+C:\Users\El\Documents\Visual Studio 2013\Projects\Cra_pi\robocup-simulation-1\robocup-simulation-1\Client\Crapi\Crapi\obj\Debug\Crapi.pdb
+C:\Users\El\Documents\Visual Studio 2013\Projects\Cra_pi\robocup-simulation-1\robocup-simulation-1\Client\Crapi\Crapi\bin\Debug\Crapi.exe
+C:\Users\El\Documents\Visual Studio 2013\Projects\Cra_pi\robocup-simulation-1\robocup-simulation-1\Client\Crapi\Crapi\bin\Debug\Crapi.pdb
+C:\Users\El\Documents\Visual Studio 2013\Projects\Cra_pi\robocup-simulation-1\robocup-simulation-1\Client\Crapi\Crapi\obj\Debug\Crapi.csprojResolveAssemblyReference.cache
+C:\Users\El\Documents\Visual Studio 2013\Projects\Cra_pi\robocup-simulation-1\Crapi\Crapi\bin\Debug\Crapi.exe.config
+C:\Users\El\Documents\Visual Studio 2013\Projects\Cra_pi\robocup-simulation-1\Crapi\Crapi\obj\Debug\Crapi.exe
+C:\Users\El\Documents\Visual Studio 2013\Projects\Cra_pi\robocup-simulation-1\Crapi\Crapi\obj\Debug\Crapi.pdb
+C:\Users\El\Documents\Visual Studio 2013\Projects\Cra_pi\robocup-simulation-1\Crapi\Crapi\bin\Debug\Crapi.exe
+C:\Users\El\Documents\Visual Studio 2013\Projects\Cra_pi\robocup-simulation-1\Crapi\Crapi\bin\Debug\Crapi.pdb
+C:\Users\El\Documents\Visual Studio 2013\Projects\Cra_pi\robocup-simulation-1\Crapi\Crapi\obj\Debug\Crapi.csprojResolveAssemblyReference.cache
+C:\Users\El\Documents\Visual Studio 2013\Projects\Cra_pi\robocup-simulation-1\Client\Crapi\bin\Debug\Crapi.exe.config
+C:\Users\El\Documents\Visual Studio 2013\Projects\Cra_pi\robocup-simulation-1\Client\Crapi\obj\Debug\Crapi.exe
+C:\Users\El\Documents\Visual Studio 2013\Projects\Cra_pi\robocup-simulation-1\Client\Crapi\obj\Debug\Crapi.pdb
+C:\Users\El\Documents\Visual Studio 2013\Projects\Cra_pi\robocup-simulation-1\Client\Crapi\bin\Debug\Crapi.exe
+C:\Users\El\Documents\Visual Studio 2013\Projects\Cra_pi\robocup-simulation-1\Client\Crapi\bin\Debug\Crapi.pdb
+C:\Users\El\Documents\Visual Studio 2013\Projects\Cra_pi\robocup-simulation-1\Client\Crapi\obj\Debug\Crapi.csprojResolveAssemblyReference.cache
+C:\Users\RbR\Documents\RoboCupRepo\Client\Crapi\bin\Debug\RoboGang.exe.config
+C:\Users\RbR\Documents\RoboCupRepo\Client\Crapi\obj\Debug\RoboGang.pdb
+C:\Users\RbR\Documents\RoboCupRepo\Client\Crapi\bin\Debug\RoboGang.exe
+C:\Users\RbR\Documents\RoboCupRepo\Client\Crapi\bin\Debug\RoboGang.pdb
+C:\Users\RbR\Documents\RoboCupRepo\Client\Crapi\obj\Debug\RoboGang.Properties.Resources.resources
+C:\Users\RbR\Documents\RoboCupRepo\Client\Crapi\obj\Debug\Crapi.csproj.GenerateResource.Cache
+C:\Users\RbR\Documents\RoboCupRepo\Client\Crapi\obj\Debug\RoboGang.exe
